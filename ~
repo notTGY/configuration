@@ -1,4 +1,5 @@
 " sets auto indentation and syntax highlighting
+
 set ai
 syntax on
 
@@ -37,6 +38,3 @@ set wildmenu
 
 " allow recursive search 
 set path+=**
-
-" disable annoying help banner of :Ex
-let g:netrw_banner=0
