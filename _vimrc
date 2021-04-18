@@ -1,4 +1,5 @@
 " sets auto indentation and syntax highlighting
+
 set ai
 syntax on
 
@@ -27,6 +28,7 @@ set ruler
 
 " dont create useless files
 set nobackup
+set noundofile
 set noswapfile
 
 " map "jk" quick sequence to ESC from insert mode
