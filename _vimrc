@@ -1,44 +1,30 @@
-" sets auto indentation and syntax highlighting
+set belloff=all "turn off that bell
 
-set ai
-syntax on
-
-" sets tab width and indent to 2 spaces
+"sets tab width and indent to 2 spaces
 set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" adds numbers to lines
-set number
+"sets auto indentation and syntax highlighting
+set autoindent
+set smartindent
+set smarttab
+syntax on
 
-" highlights some words
-set hlsearch
+set showmatch "shows matching parentheses
 
-" allows using backspace
-set backspace=indent,eol,start
+set number "adds numbers to lines
 
-" shows matching parentheses
-set showmatch
+"search settings
+set nohlsearch
+set incsearch
 
-" always show mode
-set showmode
-
-" always show cursor
-set ruler
-
-" dont create useless files
+"dont create useless files
 set nobackup
 set noundofile
 set noswapfile
 
-" map "jk" quick sequence to ESC from insert mode
-imap jk <ESC>
+set wildmenu "show some files while :find command
 
-" show some files while :find command
-set wildmenu
-
-" allow recursive search 
-set path+=**
-
-" disable annoying help banner of :Ex
-let g:netrw_banner=0
+"map "jk" quick sequence to ESC from insert mode (kinda noobby)
+inoremap jk <ESC> 
