@@ -1,30 +1,24 @@
-set belloff=all "turn off that bell
+set bo=all
+set ts=2
+set sw=2
+set et
+set ai
+set si
+set sta
+set sm
+set nu
+set nohls
+set is
+set nobk
+set noudf
+set noswf
+set wmnu
+set cc=80
+set so=5
 
-"sets tab width and indent to 2 spaces
-set tabstop=2
-set shiftwidth=2
-set expandtab
-
-"sets auto indentation and syntax highlighting
-set autoindent
-set smartindent
-set smarttab
 syntax on
 
-set showmatch "shows matching parentheses
-
-set number "adds numbers to lines
-
-"search settings
-set nohlsearch
-set incsearch
-
-"dont create useless files
-set nobackup
-set noundofile
-set noswapfile
-
-set wildmenu "show some files while :find command
-
-"map "jk" quick sequence to ESC from insert mode (kinda noobby)
-inoremap jk <ESC> 
+let mapleader = " "
+nnoremap <silent> <leader>e :E<CR>
+nnoremap <silent> <leader>l :set cul<CR>
+nnoremap <silent> <leader>L :set nocul<CR>
