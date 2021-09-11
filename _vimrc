@@ -20,5 +20,3 @@ syntax on
 
 let mapleader = " "
 nnoremap <silent> <leader>e :E<CR>
-nnoremap <silent> <leader>l :set cul<CR>
-nnoremap <silent> <leader>L :set nocul<CR>
