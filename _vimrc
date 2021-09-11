@@ -1,20 +1,20 @@
-set bo=all
-set ts=2
-set sw=2
-set et
-set ai
-set si
-set sta
-set sm
-set nu
-set nohls
-set is
-set nobk
-set noudf
-set noswf
-set wmnu
-set cc=80
-set so=5
+se bo=all
+se ts=2
+se sw=2
+se et
+se ai
+se si
+se sta
+se sm
+se nu
+se nohls
+se is
+se nobk
+se noudf
+se noswf
+se wmnu
+se cc=80
+se so=5
 
 syntax on
 
