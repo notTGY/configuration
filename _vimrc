@@ -13,7 +13,7 @@ se nobk
 se noudf
 se noswf
 se wmnu
-se cc=80
+se cc=54
 se so=5
 
 syntax on
